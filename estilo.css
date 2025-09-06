@@ -59,6 +59,7 @@ th{
   background-image: url(https://img.freepik.com/fotos-premium/fondo-abstracto-futurista-luces-neon-diseno-digital-innovacion-tecnologica_1141047-5370.jpg);
     padding: 50PX;
     color: #f0f9fd;
+    margin: auto;
 }
 
 H1{
@@ -99,14 +100,8 @@ margin: auto;
     height: 700px;
    
 }
-.card-title{
-    font-size: 50px;
-    text-align: center;
-}
-.card-text{
-    font-size: 30px;
-    text-align: center;
-}
+
+
 .hcinco{
     font-size: 40px;
 }
@@ -130,5 +125,7 @@ margin: auto;
 .contenedor{
     display: grid;
     grid-template-areas:  
-    "tabla tabla tabla tabla";
+    "tabla tabla"
+    "tabla tabla";
+
 }
