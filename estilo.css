@@ -8,7 +8,9 @@
     padding: 10px;
      background-color: rgb(8, 41, 87);
 }
-
+body{
+    margin: 0;
+}
 .inicio_tarjeta{
     width: 80%;
     height: auto;
@@ -125,7 +127,13 @@ margin: auto;
 .contenedor{
     display: grid;
     grid-template-areas:  
-    "tabla tabla"
-    "tabla tabla";
+    "tabla tabla tabla tabla";
+    auto-fit,
+    nimmax(
+        150px,
+        1fr
+        )
+    gap 15px;
 
 }
+
