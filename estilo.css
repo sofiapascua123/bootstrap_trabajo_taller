@@ -8,9 +8,7 @@
     padding: 10px;
      background-color: rgb(8, 41, 87);
 }
-body{
-    margin: 0;
-}
+
 .inicio_tarjeta{
     width: 80%;
     height: auto;
@@ -136,4 +134,5 @@ margin: auto;
     gap 15px;
 
 }
+
 
